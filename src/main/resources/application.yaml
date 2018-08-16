@@ -1,0 +1,23 @@
+# Application defaults go in here
+
+appsecurity:
+    appl_user:
+        username: user
+        password: password
+    appl_admin:
+        username: admin
+        password: password2
+
+server:
+    port: 8086
+
+spring:
+    jackson:
+        serialization:
+            INDENT_OUTPUT: true
+
+info:
+    build:
+        Name: ${project.description}
+        Artifact: ${project.artifactId}
+        Version: ${project.version}
